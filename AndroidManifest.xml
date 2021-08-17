@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.perfect_plate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Perfect_Plate">
+        <activity android:name=".ReedemSuccessActivity"></activity>
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".QuestionsActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".TableDetailsActivity" />
+        <activity android:name=".ContactViewActivity" />
+        <activity android:name=".succesfullActivity" />
+        <activity android:name=".BookingDetails"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_key" />
+
+        <activity
+            android:name=".RedeemActivity"
+            android:parentActivityName=".ResListActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".ResListActivity" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:parentActivityName=".ResListActivity" />
+        <activity
+            android:name=".ResDetailsActivity"
+            android:parentActivityName=".ResListActivity" />
+        <activity
+            android:name=".ResListActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity
+            android:name=".SignUpActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mapsearch"
+        android:icon="@drawable/ser"
+        android:title="Search" />
+    <item
+        android:id="@+id/restaurant"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/redeem"
+        android:title="Redeem"
+        android:icon="@drawable/redeem"/>
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/conn"
+        android:title="Contact" />
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/pr"
+        android:title="User" />
+</menu>

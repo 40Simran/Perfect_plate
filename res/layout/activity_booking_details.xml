@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:text="Restaurant's Name"
+        android:gravity="center"
+        android:textColor="@color/one"
+        android:id="@+id/ress_name"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/ress_name"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Details"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/one" />
+
+        <TextView
+            android:id="@+id/arrangementID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Arrangement Type: "
+            android:textColor="@color/one" />
+
+        <TextView
+            android:id="@+id/seatsID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Seats: "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/one" />
+
+        <TextView
+            android:id="@+id/foodsTypeID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Food Type: "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/one" />
+
+        <TextView
+            android:id="@+id/tableNumberID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Table Selected"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/one"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textSize="25sp"
+            android:text="Order Successfully Placed.."
+            android:gravity="center"
+            android:textColor="@color/one"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
